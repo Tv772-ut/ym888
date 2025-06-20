@@ -1,1 +1,25 @@
-
+finance_telegram_bot/
+├── bot.py                # 主入口，机器人启动和路由分发
+├── config.py             # 配置文件
+├── db.py                 # 数据库操作
+├── models.py             # ORM模型
+├── utils.py              # 工具函数
+├── requirements.txt      # 依赖清单
+│
+├── commands/
+│   ├── init.py
+│   ├── account.py        # 记账/账单/修正/计算器等
+│   ├── admin.py          # 群管理/群发/分组/设置等
+│   ├── notify.py         # 通知/欢迎语/小组等
+│   ├── ad.py             # 广告推送
+│   ├── wallet.py         # 钱包相关
+│   ├── watermarker.py    # 图片水印
+│   └── finance.py        # 财务相关
+│
+├── api/
+│   └── exchange_api.py   # 汇率/币价API
+│
+├── web/
+│   ├── app.py            # 账单Web页面（Flask）
+│   └── templates/
+│       └── bill.html
