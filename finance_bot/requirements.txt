@@ -1,8 +1,0 @@
-python-telegram-bot[asyncio]>=20.0
-SQLAlchemy>=2.0.0
-pydantic>=2.0
-Flask>=2.2.0
-pillow
-requests
-python-dotenv
-alembic
